@@ -1,0 +1,16 @@
+@import "../styles.less";
+
+.mainApp{
+    display: flex;
+    flex-direction: column;
+    padding-left: @global_padding;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    .middleWrapper{
+        display: grid;
+        grid-template-columns: 60% 40%;
+        grid-gap: 20px;
+        & .contentWrapper{
+            padding-right: 30px;
+        }
+}
+}

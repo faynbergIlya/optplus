@@ -1,0 +1,5 @@
+<div *ngIf="content$.view_count">
+<div class='viewCountWrapper'><span>View count:</span>{{content$.view_count}}</div>
+    <div class='scoreWrapper'><span>Score:</span>{{content$.score}}</div>
+    <div class='linkWrapper'><span>Link</span><a href=`{{content$.link}}`>{{content$.link}}</a></div>
+</div>
